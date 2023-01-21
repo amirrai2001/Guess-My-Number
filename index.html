@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess my number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="header">
+            <h1>welcome</h1>
+            <h2>enter a number between 1 and 100</h2>
+        </div>
+        <div class="bat"> <button class="btn-again" id="btn-again" >reset</button></div>
+        <div class="game-zone">
+            <input type="number"
+            placeholder="enter your number"
+            class="number"
+            id="number">
+            <button class="btn" id="btn" >play</button>
+        </div>
+        <div class="result">
+         <p>   <span id="message">start gueesing</span>  </p>
+        </div>
+        <div class="score">
+            <ul class="score">
+                <li> score <span id="label-score">100</span></li>
+                <li>high score <span id="high-score">0</span></li>
+            </ul>
+        </div>
+
+    </main>
+
+
+
+    <script src="/script.js"></script>
+</body>
+</html>

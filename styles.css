@@ -1,0 +1,85 @@
+html{
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 100%;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+.header{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+ h2{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    
+}
+
+h1{
+    color:rgb(3, 2, 2);
+    font-size: 4rem;
+    
+
+}
+.btn-again{
+    width: 10rem;
+    width: 0.2rem;
+    background-color: #41dfff;
+    border: 0.1rem solid white;
+    margin: 2rem;
+    color: rgb(12, 11, 8);
+    width: 10rem;
+    height: 5rem;
+    font-size:2rem ;
+    font-weight: 500;
+}
+.btn-again:hover{
+    background-color: rgb(241, 241, 241);
+    color: #46eefa;
+    border-radius: 2rem;
+}
+.game-zone{
+    display: flex;
+    flex-direction: column;
+}
+.number{
+    width:15rem;
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+.number:hover{
+    background-color: rgb(240, 216, 216);
+    border-radius: 1rem;
+}
+.btn{
+    background-color: #41dfff;
+    border: 0.1rem solid white;
+    height: 2.5rem;
+}
+.btn:hover{
+    background-color: rgb(241, 241, 241);
+    color: #46eefa;
+    border-radius: 2rem;
+}
+li{
+    font-size: 2rem;
+    font-weight: 700;
+    
+}
+.results{
+    width: 2rem;
+    height: 0.5rem;
+}
+p{
+    font-size: 2rem;
+}
